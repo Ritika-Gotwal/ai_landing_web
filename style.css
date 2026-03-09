@@ -4,11 +4,13 @@
     font-family: "Roboto", sans-serif;
 
 }
+
 /* kjlk */
 body {
-    background-color: rgb(41, 1, 47);
-    background-image: url(background_footer_img.png);
-    background-blend-mode: luminosity;
+    background: #c9558b;
+    background: radial-gradient(circle, rgba(201, 85, 139, 1) 0%, rgba(61, 48, 66, 1) 6%, rgba(173, 87, 147, 1) 77%);
+
+
 }
 
 /* header */
@@ -103,7 +105,7 @@ header button {
     color: white;
     max-width: 350px;
     padding-bottom: 15px;
-   line-height: 22px;
+    line-height: 22px;
 }
 
 .icon_text_row_box {
@@ -149,7 +151,7 @@ section h1 span {
     padding: 10px 20px;
     border-radius: 50px;
     border: 2px solid purple;
-    
+
 }
 
 
@@ -199,7 +201,7 @@ section h1 span {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-   background-color: rgba(63, 2, 63, 0.733);
+    background-color: rgba(63, 2, 63, 0.733);
     color: white;
     min-width: fit-content;
     padding: 10px;
@@ -280,7 +282,7 @@ section h1 span {
     color: rgb(238, 144, 238);
 }
 
-.main_content_ p{
+.main_content_ p {
     font-size: 13px;
     width: 350px;
     line-height: 20px;
@@ -673,7 +675,7 @@ section h1 span {
     justify-content: center;
     gap: 10px;
     margin-bottom: 50px;
-   
+
 
 }
 
@@ -682,14 +684,14 @@ section h1 span {
     font-size: 35px;
     width: 500px;
     text-align: center;
-   
+
 }
 
-#faq_link{
+#faq_link {
     margin-top: 350px;
 }
 
-#pricing_link{
+#pricing_link {
     margin-top: 50px;
 }
 
@@ -702,7 +704,7 @@ section h1 span {
     justify-content: center;
     gap: 10px;
     margin-bottom: 100px;
-    
+
 
 }
 
@@ -774,7 +776,7 @@ footer {
     padding-bottom: 50px;
     background-color: rgb(108, 5, 108);
     height: 40vh;
-    background-image: url(background_footer_img.png);
+    /* background-image: url(background_footer_img.png); */
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 100px;
